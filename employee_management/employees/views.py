@@ -53,5 +53,5 @@ class EmployeeDetailView(generics.RetrieveUpdateDestroyAPIView):
     def delete(self, request, *args, **kwargs):
         employee = self.get_object()
         employee.delete()
-        return Response({'message': 'Employee Record deleted successfully'}, status=status.HTTP_200_OK)
+        return Response({'message': 'Employee Record deleted successfully'}, status=status.HTTP_204_NO_CONTENT)
 
