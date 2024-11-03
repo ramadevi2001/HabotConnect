@@ -27,12 +27,19 @@
    2. Go the postman import this collection [(https://api.postman.com/collections/34747528-887d6646-c143-4584-9895-fc896f00f9da?access_key=PMAT-01JBQM9GPGGGM916JWSHX4GGX7)]
    3. create enviroment postman with variables url as `http://localhost:8000`, token value you can steup when you logged in
    4. call the create API You will get the result following image<img width="946" alt="image" src="https://github.com/ramadevi2001/HabotConnect/issues/2">
+
    5. Congrats your backend setup for this project is done.
+
+
+   ### For running the Testcases 
+   use this command **python manage.py test**
+
 
 
 
 ### Aditional Commands
 1. whenever installed new package is update the requirements.txt using the command `pip freeze > requirements.txt` make sure your virtual environment is active before running this command.
+
 
 
 
